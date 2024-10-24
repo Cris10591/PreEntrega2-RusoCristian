@@ -1,0 +1,100 @@
+footer {
+    margin-top: 0;
+    height: auto;
+    background-color:$color-principal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    a {
+        color: white;
+    }
+    h4{
+        color: #000;
+        font-size: 30px;
+    }
+    div  {
+       
+        a{
+            font-size: large;
+            &:hover{
+                transform: scale(1.15);
+            }
+            
+            img{
+                margin: 5px;
+                width: 40px;
+                height: 40px;
+               
+            }
+           
+            }
+        }
+     
+    .navegacion-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 18%;
+      padding-left: 10px;
+      ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    }
+    .redes-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 18%;
+        padding: 0px;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 100%;
+            padding: 0px;
+          
+                
+                
+            
+        }
+    
+    }
+    .contacto-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    
+        width: 40%;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 100%;
+        }
+    }
+    
+    .mapa-footer{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+            transform: scale(1.15);
+        }
+    }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

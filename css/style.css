@@ -73,7 +73,7 @@ main {
     margin: 0px;
 }
 
-.hero {
+.hero-index {
     background-image: url("../img/vasovertical.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -86,7 +86,7 @@ main {
     background-color: rgba(0, 0, 0, 0.871);
 }
 
-.hero iframe {
+.hero-index iframe {
     margin-top: 10px;
     width: 50%;
     height: 70%;
@@ -110,25 +110,6 @@ main {
     transform: scale(1.1);
 }
 
-.informacion {
-    background-image: url("../img/vasovertical.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.carousel {
-    width: 80%;
-    padding: 15px;
-
-}
-
-.carousel h5 {
-    background-color: rgba(196, 196, 196, 0.895);
-}
 
 
 
@@ -136,18 +117,7 @@ main {
 
 
 
-.servicios {
-    background-image: url("../img/vasovertical.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-    background-color: rgba(240, 248, 255, 0.11);
-    opacity: unset;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 
 
 .grid-container-servicios {
@@ -214,11 +184,7 @@ main {
 }
 
 /*!  */
-.comunicacion {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-}
+
 
 /*!   footer*/
 footer {
@@ -432,10 +398,9 @@ padding:10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     width: auto;
-
     height: 80vh;
-
     padding: 20px;
 
 }

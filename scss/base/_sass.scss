@@ -3,4 +3,30 @@
 /**
 VARIABLES
 */
+$color-principal: rgb(203, 41, 67);
+$color-secundario:#050b14;
+$fondo-contacto:rgb(147, 147, 147);
+%boton{
+    background-color: rgb(146, 17, 17);
+            border: white solid 1px;
+            color: rgb(239, 242, 245);
+            padding: 10px;
+            &:hover {
+                background-color: rgb(0, 8, 21);
+                color: rgb(239, 242, 245);
+                border: white solid 1px;
+            }
 
+}
+%flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+%flex-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

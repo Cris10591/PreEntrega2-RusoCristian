@@ -5,3 +5,41 @@
 @import "./components/footer";
 @import "./base/queries";
 
+/*mixin
+
+
+@mixin flex ($flex,$justify,$align){
+display: $flex;
+justify-content: $justify;
+align-items: $align;
+
+}
+
+.clase{
+    @include flex(flex,center,center)
+}*/
+
+/*!CONDICONALES se trabajan con mixin equivalente a una funcion, OPERACIONES DE COMPARACION*/
+/*@mixin modo($dark){
+    @if $dark==black {
+        background-color: black;
+        border: 2px solid red;
+        
+    }@else{
+        background-color: rgb(231, 224, 224);
+        border: 2px solid rgb(0, 255, 98);
+    }
+}
+
+.mapa-footer{
+    @include modo(rgb(155, 47, 47));
+}*/
+
+
+/*bucles
+@for $i from 1 through 6{
+    .mapa-footer-#{i}{
+        font-size: 24px /$i;
+    }
+}*/
+
