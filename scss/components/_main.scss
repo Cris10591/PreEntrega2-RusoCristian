@@ -1,48 +1,4 @@
 /*! Main index*/
-.informacion-index {
-    background-image: url("../img/vasovertical.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.871);
-
-    iframe {
-        margin-top: 10px;
-        margin-right: 10px;
-        width: 50%;
-        height: 70%;
-        box-shadow: 15px 16px 44px 4px rgba(0, 0, 0, 0.92);
-        -webkit-box-shadow: 15px 16px 44px 4px rgba(0, 0, 0, 0.92);
-        -moz-box-shadow: 15px 16px 44px 4px rgba(0, 0, 0, 0.92);
-    }
-
-    div {
-        margin-left: 10px;
-        width: 35%;
-
-        padding: 10px;
-        color: rgb(0, 0, 0);
-        background-color: $color-principal;
-        font-size: x-large;
-        box-shadow: 15px 16px 44px 4px rgba(0, 0, 0, 0.92);
-        -webkit-box-shadow: 15px 16px 44px 4px rgba(0, 0, 0, 0.92);
-        -moz-box-shadow: 15px 16px 44px 4px rgba(0, 0, 0, 0.92);
-
-
-        &:hover {
-            transform: scale(1.05);
-
-
-        }
-    }
-}
-
 .hero-index {
     width: 100%;
     background-image: url("../img/vasovertical.jpg");
@@ -59,13 +15,52 @@
             padding: 6px;
             background-color: rgba(196, 196, 196, 0.895);
             color: #000;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
         p {
             color: #000;
             margin: 0px;
-            font-size: x-large;
-            background-color: rgba(196, 196, 196, 0.895);
+            font-size: 20px;
+            background-color: $fondo-contacto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}
+
+.informacion-index {
+    background-image: url("../img/vasovertical.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+    @extend %flex-row-center;
+    background-color: rgba(0, 0, 0, 0.871);
+
+    iframe {
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 50%;
+        height: 70%;
+        @extend %sombreado;
+    }
+
+    div {
+        margin-left: 10px;
+        width: 35%;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        background-color: $color-principal;
+
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px
+        }
+
+        @extend %sombreado;
+
+        &:hover {
+            transform: scale(1.05);
         }
     }
 }
@@ -76,7 +71,7 @@
         font-size: xx-large;
         background-color: rgba(0, 0, 0, 0.755);
         color: white;
-
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     background-image: url("../img/vasovertical.jpg");
@@ -84,7 +79,6 @@
     background-attachment: fixed;
     text-align: center;
     background-color: rgba(240, 248, 255, 0.11);
-    opacity: unset;
     @extend %flex-column-center;
 
     .grid-container-servicios-index {
@@ -94,9 +88,7 @@
         align-items: center;
 
         .grid-item-index {
-            background-image: url("../img/vasovertical.jpg");
-            background-size: cover;
-            background-attachment: fixed;
+          
             height: 280px;
             width: 234px;
             text-align: center;
@@ -104,10 +96,8 @@
             border: 3px solid black;
             @extend %flex-column-center;
             border-radius: 5px;
-            box-shadow: 15px 25px 27px -21px rgba(0, 0, 0, 0.92);
-            -webkit-box-shadow: 15px 25px 27px -21px rgba(0, 0, 0, 0.92);
-            -moz-box-shadow: 15px 25px 27px -21px rgba(0, 0, 0, 0.92);
-
+            @extend %sombreado;
+background-color: $color-secundario;
             img {
                 height: 200px;
                 width: 228px;
@@ -115,10 +105,11 @@
 
             h3 {
                 width: 100%;
-                font-size: xx-large;
-                background-color: rgba(133, 132, 132, 0.76);
+                font-size: x-large;
+                background-color: $fondo-contacto;
                 color: rgb(2, 2, 2);
                 padding: 3PX;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
 
             a {
@@ -127,50 +118,40 @@
                 padding: 3px;
                 border-radius: 10px;
                 margin: 3px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
             }
 
             &:hover {
                 transform: scale(1.15);
             }
-
         }
-
-
-
     }
 }
 
 /*! Nosotros index*/
-
-
-
-
 .menu-nosotros {
     background-color: $color-secundario;
     @extend %flex-column-center;
 
     .carousel {
-        background-color: bisque;
+        background-color: $color-terciario;
         margin: 10px;
         width: 90%;
         height: 100%;
 
         .card {
-            background-color: bisque;
+            background-color: $color-terciario;
 
             .card-body {
-
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-
+                @extend %flex-column-center;
 
                 h3 {
                     background-color: #7e7a7ab4;
                     font-size: 40px;
                     width: 100%;
                     text-align: center;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                 }
 
                 a {
@@ -180,49 +161,42 @@
                     border-radius: 10px;
                     display: none;
                     margin-bottom: 10px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                 }
 
                 p {
                     font-size: x-large;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                 }
-
             }
         }
     }
-
-
 }
 
 .alianzas-nosotros {
-
     background-color: $color-principal;
 
     .beneficio {
-        display: flex;
-
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        @extend %flex-column-center;
 
         h2 {
-            color: bisque;
+            color: $color-terciario;
             font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
         p {
-            color: bisque;
+            color: $color-terciario;
             font-size: 40px;
             border: 2px solid black;
             padding: 5px;
             text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
     }
 
     .card-group {
-
-
         .card {
-
             align-items: center;
             justify-content: center;
             background-color: $color-secundario;
@@ -232,14 +206,13 @@
             .card-body {
                 display: flex;
                 flex-direction: column;
-
                 align-items: center;
-                background-color: bisque;
+                background-color: $color-terciario;
 
                 h4 {
-
                     font-size: xx-large;
                     text-align: center;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                 }
 
                 a {
@@ -249,10 +222,12 @@
                     border-radius: 10px;
                     opacity: 0;
                     margin-bottom: 10px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                 }
 
                 p {
                     font-size: large;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                 }
             }
 
@@ -260,12 +235,8 @@
                 transform: scale(1.1);
             }
         }
-
-
     }
 }
-
-
 
 /*???Menu Producto*/
 .menu-producto {
@@ -279,14 +250,11 @@
         "menu-lista menu-lista menu-lista"
     ;
     margin: 0;
-
     gap: 5px;
 
     .hero-producto {
         grid-area: hero-producto;
-
         height: 70vh;
-
 
         img {
             width: 100%;
@@ -305,6 +273,7 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 45px;
             text-align: center;
+           
         }
 
         p {
@@ -313,6 +282,7 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: x-large;
             text-align: center;
+            
         }
     }
 
@@ -323,23 +293,27 @@
         margin: 0px;
         grid-area: menu-lista;
 
-
         div {
             div {
                 .list-group {
                     a {
                         font-size: 24px;
-
-
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
                     }
                 }
             }
         }
 
         div {
+            background-color: $color-principal;
             div {
+               
                 div {
-                    div {
+                  
+                    div
+                    
+                     {
+                       
                         .list-producto {
                             display: flex;
                             flex-wrap: wrap;
@@ -349,9 +323,7 @@
                                 position: relative;
                                 margin: 10px;
                                 margin-left: 10px;
-                                box-shadow: 15px 25px 27px -21px rgba(0, 0, 0, 0.92);
-                                -webkit-box-shadow: 15px 25px 27px -21px rgba(0, 0, 0, 0.92);
-                                -moz-box-shadow: 15px 25px 27px -21px rgba(0, 0, 0, 0.92);
+                               
 
                                 img {
                                     height: 300px;
@@ -366,36 +338,27 @@
                                     background-color: rgba(178, 185, 191, 0.747);
                                     padding: 2px;
                                     width: 100%;
+                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                                 }
 
                                 &:hover {
                                     transform: scale(1.05);
                                 }
-
                             }
                         }
                     }
                 }
             }
         }
-
-
     }
-
-
 }
-
-
-
-
-
 
 /*???page suplementos*/
 .info-suplementos {
     background-color: $color-principal;
 
-    h2 {
-        color: bisque;
+    h1 {
+        color: $color-terciario;
         font-size: 45px;
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -407,7 +370,7 @@
         font-size: large;
         text-align: center;
         background-color: rgba(128, 128, 128, 0.301);
-        color: bisque;
+        color: $color-terciario;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
@@ -415,56 +378,50 @@
 .prod-suplementos {
     background-color: $color-secundario;
     margin-top: 10px;
-
     width: 100%;
     background-image: url("../img/rutina-de-ejercicio.jpg");
     margin-bottom: 0px;
 
     .carousel {
         width: 70%;
+
         .carousel-inner {
-            
+            .carousel-item {
+                background-color: $color-secundario;
 
-            
-               
-                .carousel-item {
-                    background-color: $color-secundario;
+                .card {
+                    .card-body {
+                        align-items: center;
+                        text-align: center;
 
-                    .card {
-                        .card-body {
-                            align-items: center;
-                            text-align: center;
-                           h3{
+                        h3 {
                             font-size: 24px;
                             text-align: center;
                             font-family: Verdana, Geneva, Tahoma, sans-serif;
-                           }
-                           a {
-                           font-size: 22px;
+                        }
+
+                        a {
+                            font-size: 22px;
                             background-color: rgb(10, 10, 10);
                             color: white;
-                          border-radius: 5px;
-                          font-family: Verdana, Geneva, Tahoma, sans-serif;
-                           
-                            
+                            border-radius: 5px;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
                         }
-                            &hover {
-                                transform: scale(1.5);
-                            }
+
+                        &hover {
+                            transform: scale(1.5);
                         }
                     }
                 }
             }
         }
     }
-
-
-
+}
 
 /*???Menu Contacto*/
 .menu-contacto {
     .contacto {
-        background-color: rgb(147, 147, 147);
+        background-color: $fondo-contacto;
         display: flex;
         flex-direction: row;
         width: auto;
@@ -475,10 +432,8 @@
             height: 100%;
             padding: 10px;
             width: 60%;
-            background-color: rgb(147, 147, 147);
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
+            background-color: $fondo-contacto;
+            @extend %flex-row-center;
 
             form {
                 width: 95%;
@@ -486,7 +441,7 @@
                 div {
                     textarea {
                         width: 85%;
-                        background-color: rgb(147, 147, 147);
+                        background-color: $fondo-contacto;
                         border: none;
                         border-bottom: 2px;
                         border-bottom-style: solid;
@@ -500,16 +455,15 @@
                         border-bottom: 2px;
                         border-bottom-style: solid;
                         border-bottom-color: #000;
-                        background-color: rgba(167, 166, 166, 0.767);
+                        background-color: $fondo-contacto;
                         color: black;
                         width: 85%;
                     }
                 }
 
                 .btn-contacto {
-
                     button {
-                        background-color: rgb(133, 132, 132);
+                        background-color: $fondo-contacto;
                         border: rgb(0, 0, 0) solid 1px;
                         color: rgb(0, 0, 0);
                         padding: 10px;
@@ -526,15 +480,17 @@
         }
 
         .info-contacto {
-            display: inline-block;
-            align-items: center;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
             justify-content: center;
             height: auto;
             width: 40%;
-            background-color: rgb(147, 147, 147);
+            background-color: $fondo-contacto;
 
             a {
                 color: rgb(2, 2, 2);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
 
                 &:hover {
                     color: blue;
@@ -545,6 +501,7 @@
             div {
                 p {
                     font-size: 18px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                 }
 
                 div {
@@ -554,18 +511,5 @@
                 }
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

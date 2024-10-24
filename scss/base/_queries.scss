@@ -1,40 +1,23 @@
 @media screen and (max-width:1234px) {
-   
-    
     .prod-suplementos {
-      
         .carousel {
-           
             .carousel-inner {
-                
-    
-                
-                   
-                    .carousel-item {
-                        
-    
-                        .card {
-                            .card-body {
-                                
-                               h3{
+                .carousel-item {
+                    .card {
+                        .card-body {
+                            h3 {
                                 font-size: 21px;
-                                
-                               }
-                               a {
-                               font-size: 20px;
-                              
-                               
-                                
                             }
-                              
+
+                            a {
+                                font-size: 20px;
                             }
                         }
                     }
                 }
             }
         }
-    
-    
+    }
 }
 
 @media screen and(max-width:1131px) {
@@ -46,16 +29,12 @@
 
             h5 {
                 font-size: large;
-                padding: 6px;
-                background-color: rgba(196, 196, 196, 0.895);
-                color: #000;
+
             }
 
             p {
-                color: #000;
-                margin: 0px;
                 font-size: large;
-                background-color: rgba(196, 196, 196, 0.895);
+
             }
         }
     }
@@ -68,43 +47,40 @@
         }
     }
 }
+
 @media screen and (max-width:1104px) {
-   
-    
+
+
     .prod-suplementos {
-      
+
         .carousel {
-           
+
             .carousel-inner {
-                
-    
-                
-                   
-                    .carousel-item {
-                        
-    
-                        .card {
-                            .card-body {
-                                
-                               h3{
+
+
+                .carousel-item {
+
+                    .card {
+                        .card-body {
+
+                            h3 {
                                 font-size: 19px;
-                                
-                               }
-                               a {
-                               font-size: 18px;
-                              
-                               
-                                
+
                             }
-                              
+
+                            a {
+                                font-size: 18px;
+
                             }
+
                         }
                     }
                 }
             }
         }
-    
-    
+    }
+
+
 }
 
 @media screen and (max-width:1048px) {
@@ -119,8 +95,6 @@
             font-size: 18px;
 
         }
-
-
 
         .navegacion-footer {
             a {
@@ -155,64 +129,54 @@
 
     }
 }
+
 @media screen and (max-width:1018px) {
     .info-suplementos {
-    
-    
         h2 {
-          
             font-size: 35px;
-            
         }
-    
+
         p {
-    
+
             font-size: 16px;
-        
+
         }
     }
-    
+
     .prod-suplementos {
-        
-    
+
         .carousel {
-           width: 80%;
+            width: 80%;
+
             .carousel-inner {
-                
-    
-                
-                   
-                    .carousel-item {
-                      
-    
-                        .card {
-                            .card-body {
-                               
-                               h3{
+
+                .carousel-item {
+
+                    .card {
+                        .card-body {
+
+                            h3 {
                                 font-size: 18px;
-                                
-                               }
-                               a {
-                               font-size: 17px;
-                              
-                               
-                                
+
                             }
-                               
+
+                            a {
+                                font-size: 17px;
+
                             }
+
                         }
                     }
                 }
             }
         }
-    
-    
+    }
 }
+
 @media screen and (max-width:945px) {
 
 
     .comunicacion {
-
         bottom: 10px;
         right: 20px;
 
@@ -227,7 +191,6 @@
             display: flex;
             flex-direction: column;
             align-items: start;
-
             width: 40%;
 
             div {
@@ -237,10 +200,6 @@
                 width: 100%;
             }
         }
-
-
-
-
 
         div {
             a {
@@ -350,91 +309,75 @@
     }
 
     .info-suplementos {
-    
-    
+
+
         h2 {
-          
+
             font-size: 28px;
-            
+
         }
-    
+
         p {
-    
+
             font-size: 14px;
-        
+
         }
     }
-    
+
     .prod-suplementos {
-        
-    
+
+
         .carousel {
-           width: 85%;
+            width: 85%;
+
             .carousel-inner {
-                
-    
-                
-                   
-                    .carousel-item {
-                      
-    
-                        .card {
-                         
-                            .card-body {
-                               
-                               h3{
+
+
+
+
+                .carousel-item {
+
+
+                    .card {
+
+                        .card-body {
+
+                            h3 {
                                 font-size: 17px;
-                                
-                               }
-                               a {
-                               font-size: 16px;
-                              
-                               
-                                
+
                             }
-                               
+
+                            a {
+                                font-size: 16px;
+
+
+
                             }
+
                         }
                     }
                 }
             }
         }
-    
+    }
+
 
 
 }
 
 @media screen and (max-width:790px) {
     .servicios-index {
-
-
-
         .grid-container-servicios-index {
-
-
             .grid-item-index {
-
                 height: 250px;
                 width: 224px;
-
                 margin: 15px;
-
 
                 img {
                     height: 170px;
                     width: 218px;
                 }
-
-
-
-
-
-
-
             }
-
-
-
         }
     }
 
@@ -458,66 +401,42 @@
             }
         }
     }
-
-
-
-
 }
+
 @media screen and (max-width:770px) {
     .info-suplementos {
-    
-    
         h2 {
-          
             font-size: 28px;
-            
         }
-    
+
         p {
-    
             font-size: 14px;
-        
         }
     }
-    
+
     .prod-suplementos {
-        
-    
         .carousel {
-           width: 90%;
+            width: 90%;
+
             .carousel-inner {
-                
-    
-                
-                   
-                    .carousel-item {
-                      
-    
-                        .card {
-                         
-                            .card-body {
-                               
-                               h3{
+                .carousel-item {
+                    .card {
+                        .card-body {
+                            h3 {
                                 font-size: 15px;
-                                
-                               }
-                               a {
-                               font-size: 15px;
-                              
-                               
-                                
                             }
-                               
+
+                            a {
+                                font-size: 15px;
                             }
                         }
                     }
                 }
             }
         }
-
-
-
+    }
 }
+
 @media screen and (max-width:735px) {
     .servicios-index {
         .grid-container-servicios-index {
@@ -538,9 +457,7 @@
                 h3 {
                     font-size: 25px;
                 }
-
             }
-
         }
     }
 }
@@ -557,17 +474,12 @@
                     height: 130px;
                     width: 182px;
                 }
-
             }
-
         }
     }
 
     .contacto {
-
-
         .form-contacto {
-
             width: 80%;
 
             form {
@@ -593,70 +505,46 @@
                 }
             }
         }
-
     }
-
-
-
-
-
-
-
-
-
 }
+
 @media screen and(max-width:660px) {
     .info-suplementos {
-    
-    
         h2 {
-          
             font-size: 30px;
             padding: 20px;
         }
-    
+
         p {
-    display: none;
+            display: none;
             font-size: 14px;
-        
         }
     }
-    
+
     .prod-suplementos {
-        
-    
         .carousel {
-           width: 100%;
+            width: 100%;
+
             .carousel-inner {
-                
-    
-                
-                   
-                    .carousel-item {
-                      
-    
-                        .card {
-                            .card-body {
-                               
-                               h3{
+                .carousel-item {
+                    .card {
+                        .card-body {
+                            h3 {
                                 font-size: 14px;
-                                
-                               }
-                               a {
-                               font-size: 14px;
-                              
-                               
-                                
                             }
-                               
+
+                            a {
+                                font-size: 14px;
                             }
                         }
                     }
                 }
             }
         }
-    
+    }
+
 }
+
 @media screen and (max-width:650px) {
     footer {
 
@@ -664,30 +552,29 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
 
-        div {
+
+        .navegacion-footer {
+            padding-left: 15px;
+
             h4 {
                 font-size: 18px;
             }
 
-            a {
-                img {
-
-                    margin: 5px;
-                    width: 40px;
-                    height: 40px;
+            ul {
+                li {
+                    a {
+                        font-size: medium;
+                    }
                 }
             }
-        }
 
-        .navegacion-footer {
-            padding-left: 15px;
         }
 
         .mapa-footer {
             iframe {
                 width: 280px;
                 height: 150px;
-
+                align-items: center;
             }
         }
 
@@ -695,30 +582,48 @@
 
             width: 90%;
 
+            h4 {
+                font-size: 18px;
+            }
+
             div {
+
                 display: flex;
                 flex-direction: row;
-
                 margin: 5px;
 
+                a {
+                    text-align: center;
+
+
+                }
             }
         }
 
         .contacto-footer {
+            margin-top: 10px;
             display: flex;
             flex-direction: column;
             width: 100%;
             padding-left: 15px;
 
-            div {
-                display: flex;
-                flex-direction: column;
-
-
-                width: 100%;
+            h4 {
+                font-size: 18px;
             }
 
+            div {
+                display: inline;
+
+                width: 100%;
+
+                a,
+                p {
+                    font-size: 12px;
+                    width: 250px;
+                }
+            }
         }
+
 
     }
 
@@ -728,6 +633,9 @@
         right: 25px;
     }
 }
+
+
+
 
 @media screen and (max-width:617px) {
 
@@ -790,30 +698,25 @@
     }
 
     .menu-contacto {
-
+        height: 90vh;
+        padding: 0px;
 
         .contacto {
-
-            width: 100%;
+            height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             width: auto;
-            height: 80vh;
-
 
             .form-contacto {
-
-
+                height: 65%;
                 width: 100%;
-
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
 
                 form {
-
                     width: 100%;
                     align-items: center;
 
@@ -821,7 +724,6 @@
                         textarea {
                             height: 80px;
                             width: 100%;
-
                         }
 
                     }
@@ -838,106 +740,97 @@
 
 
 
-                    .btn-contacto {
 
-                        button {
-                            background-color: rgb(133, 132, 132);
-                            border: rgb(0, 0, 0) solid 1px;
-                            color: rgb(0, 0, 0);
-                            padding: 5px;
-
-                            &:hover {
-                                background-color: rgb(0, 0, 0);
-                                border: rgb(0, 0, 0) solid 1px;
-                                color: rgb(255, 255, 255);
-                            }
-                        }
-                    }
                 }
             }
 
             .info-contacto {
+
+                margin-top: 15px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                height: 30%;
+                width: 90%;
 
-                height: 40%;
-                width: 80%;
-                background-color: rgb(147, 147, 147);
 
-                a {
-                    color: rgb(2, 2, 2);
+                h2 {
+                    font-size: 24px;
+                }
 
-                    &:hover {
-                        color: blue;
-                        text-decoration: underline;
+                div {
+                    a {
+                        font-size: medium;
+
+
+
                     }
                 }
 
                 div {
+
                     p {
-                        font-size: 14px;
+                        font-size: 13px;
                     }
 
-                    div {
-                        img {
-                            margin-right: 10px;
-                        }
-                    }
+
                 }
             }
         }
     }
 }
+
 @media screen and(max-width:563px) {
     .info-suplementos {
-    
-    
+
+
         h2 {
-          
+
             font-size: 30px;
             padding: 20px;
         }
-    
-     
+
+
     }
-    
+
     .prod-suplementos {
-        
-    
+
+
         .carousel {
-           width: 100%;
+            width: 100%;
+
             .carousel-inner {
-                
-    
-                
-                   
-                    .carousel-item {
-                       
-    
-                        .card {
-                          
-                            .card-body {
-                               
-                               h3{
-                                
+
+
+
+
+                .carousel-item {
+
+
+                    .card {
+
+                        .card-body {
+
+                            h3 {
+
                                 font-size: 13px;
-                                
-                               }
-                               a {
-                               font-size: 12px;
-                              
-                               
-                                
+
                             }
-                               
+
+                            a {
+                                font-size: 12px;
+
+
+
                             }
+
                         }
                     }
                 }
             }
         }
-    
+    }
+
 }
 
 
@@ -954,12 +847,20 @@
                 align-items: center;
 
                 li {
+                    a {
+                        font-size: 15px;
+                    }
+
                     margin: 5px;
                 }
             }
         }
 
         .redes-footer {
+            div {
+                justify-content: start;
+            }
+
             padding-left: 15px;
         }
 
@@ -969,48 +870,229 @@
 
 
         }
+
+        .contacto-footer {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            padding-left: 15px;
+
+            h4 {
+                font-size: 18px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+
+                a,
+                p {
+                    font-size: 12px;
+                    width: auto;
+                }
+            }
+        }
     }
 }
+
 @media screen and(max-width:441px) {
-   
-    
+
+
     .prod-suplementos {
-        
-    
+
+
         .carousel {
-          
+
             .carousel-inner {
-                
-    
-                
-                   
-                    .carousel-item {
-                       
-    
-                        .card {
-                          
-                            .card-body {
-                               
-                               h3{
+
+
+
+
+                .carousel-item {
+
+
+                    .card {
+
+                        .card-body {
+
+                            h3 {
                                 display: none;
                                 font-size: 12px;
-                                
-                               }
-                               a {
-                               font-size: 15.5px;
-                              
-                               
-                                
+
                             }
-                               
+
+                            a {
+                                font-size: 15.5px;
+
+
+
                             }
+
                         }
                     }
                 }
             }
         }
-    
+    }
+
+    .menu-contacto {
+        height: 90vh;
+        padding: 0px;
+
+        .contacto {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+
+            .form-contacto {
+                height: 65%;
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                form {
+                    width: 100%;
+                    align-items: center;
+
+                    div {
+                        textarea {
+                            height: 80px;
+                            width: 100%;
+                        }
+
+                    }
+
+                    .datos-contacto {
+
+                        input {
+
+                            width: 100%;
+                        }
+
+
+                    }
+
+
+
+
+                }
+            }
+
+            .info-contacto {
+
+                margin-top: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 30%;
+                width: 90%;
+                background-color: rgb(147, 147, 147);
+
+                h2 {
+                    font-size: 24px;
+                }
+
+                div {
+                    a {
+                        font-size: 12px;
+                        color: rgb(2, 2, 2);
+
+                        &:hover {
+                            color: blue;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                div {
+
+                    p {
+                        font-size: 12px;
+                    }
+
+
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+
+        .navegacion-footer {
+            h4 {
+                font-size: 16px;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                li {
+                    a {
+                        font-size: 12px;
+                    }
+
+                    margin: 5px;
+                }
+            }
+        }
+
+        .redes-footer {
+            h4 {
+                font-size: 16px;
+            }
+
+            div {
+                justify-content: start;
+            }
+
+            padding-left: 15px;
+        }
+
+        .mapa-footer iframe {
+            width: 100%;
+            height: 120px;
+
+
+        }
+
+        .contacto-footer {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            padding-left: 15px;
+
+            h4 {
+                font-size: 16px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+
+                a,
+                p {
+                    font-size: 12px;
+                    width: auto;
+                }
+            }
+        }
+    }
 }
+
 @media screen and (max-width:401px) {
     .servicios-index {
         .grid-container-servicios-index {
@@ -1425,12 +1507,12 @@
         }
 
         .menu-lista {
-            
+
 
             div {
-               
+
                 div {
-                    
+
                     .list-group {
                         width: 90%;
 
@@ -1442,11 +1524,11 @@
 
                 div {
                     div {
-            
+
                         div {
 
                             .list-producto {
-                              
+
 
                                 .grid-item {
                                     margin: 10px;
@@ -1650,6 +1732,7 @@
     }
 
 }
+
 @media screen and (max-width:662px) {
     .menu-producto {
 
@@ -1668,12 +1751,12 @@
         }
 
         .menu-lista {
-            
+
 
             div {
-               
+
                 div {
-                   
+
                     .list-group {
                         width: 100%;
 
@@ -1685,11 +1768,11 @@
 
                 div {
                     div {
-            
+
                         div {
 
                             .list-producto {
-                              
+
 
                                 .grid-item {
                                     margin: 10px;
@@ -1723,6 +1806,7 @@
 
     }
 }
+
 @media screen and (max-width:577px) {
     .menu-nosotros {
 
@@ -1873,6 +1957,7 @@
     }
 
 }
+
 @media screen and (max-width:456px) {
     .menu-producto {
 
@@ -1891,12 +1976,12 @@
         }
 
         .menu-lista {
-            
+
 
             div {
-               
+
                 div {
-                   
+
                     .list-group {
                         width: 100%;
 
@@ -1908,11 +1993,11 @@
 
                 div {
                     div {
-            
+
                         div {
 
                             .list-producto {
-                              
+
 
                                 .grid-item {
                                     margin: 5px;
@@ -1946,6 +2031,7 @@
 
     }
 }
+
 @media screen and (max-width:456px) {
     .menu-producto {
 
@@ -1964,12 +2050,12 @@
         }
 
         .menu-lista {
-            
+
 
             div {
-               
+
                 div {
-                   
+
                     .list-group {
                         width: 100%;
 
@@ -1981,11 +2067,11 @@
 
                 div {
                     div {
-            
+
                         div {
 
                             .list-producto {
-                              
+
 
                                 .grid-item {
                                     margin: 2px;
@@ -2019,6 +2105,7 @@
 
     }
 }
+
 @media screen and (max-width:411px) {
     .menu-nosotros {
         margin: 0px;

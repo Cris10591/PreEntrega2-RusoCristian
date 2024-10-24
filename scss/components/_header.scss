@@ -8,7 +8,7 @@ header {
     nav {
 
         .container-fluid {
-            background-color: rgb(203, 41, 67);
+            background-color:$color-principal;
         }
 
         img {
@@ -26,7 +26,7 @@ header {
         }
 
         .dropdown-menu {
-            background-color: rgb(203, 41, 67);
+            background-color: $color-principal;
             border: white solid 2px;
         }
 
